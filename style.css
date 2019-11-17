@@ -1,0 +1,35 @@
+input[type=text] {
+	font-size: 16px;
+	border: 1px solid silver;
+	width: 500px;
+	height: 60px;
+	font-size: 25px;
+}
+li{
+	cursor: pointer;
+	position: relative;
+	list-style-type: none;
+	font-size: 18px;
+	transition: 0.2s;
+	border: 1px solid silver;
+	width: 500px;
+	height: 60px;
+	text-align:left;
+	font-size: 25px;
+	top:1px 1px;
+	right:40px;
+	bottom: 10px;
+	
+}
+.delete{
+	position: absolute;
+	right: 0;
+}
+.edit{
+	width: 28px;
+	height: 28px;
+}
+.starthidden {
+    display: none;
+}
+
